@@ -2,10 +2,93 @@
   text-align: center;
 }
 .insideApp {
-  background-image: url("./assets/bg1.png");
+  margin: 0px auto;
 }
 .csLogo {
   margin: 0 auto;
   margin-top: 300px;
   margin-bottom: 300px;
+}
+
+.heading {
+  font-family: "Kaisei Opti", serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 48px;
+  line-height: 30px;
+}
+.subheading {
+  margin-top: -20px;
+  font-size: 32px;
+  line-height: 15px;
+  font-family: "Kaisei Opti", serif;
+  font-weight: 600;
+  color: #fff;
+}
+a {
+  cursor: pointer;
+}
+
+.logo {
+  padding-top: 20px;
+}
+
+.section1{
+  background-image: url("./assets/bg1.png");
+}
+.section2{
+  background-image: url("./assets/bg2.png");
+}
+.section3{
+  background-image: url("./assets/bg3.png");
+}
+.section4{
+  background-image: url("./assets/bg4.png");
+}
+.section5{
+  background-image: url("./assets/bg5.png");
+}
+.mainSection {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.leftGirl {
+  margin-top: -50px;
+  max-width: 850px;
+}
+
+.description {
+  padding: 0px 50px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  background: linear-gradient(
+    344deg,
+    rgba(255, 107, 173, 0.8) 12%,
+    rgba(242, 176, 205, 0.8) 84%
+  );
+  background-blend-mode: normal;
+}
+.desc {
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+.detailBlock {
+  display: flex;
+  margin: 0;
+}
+.key {
+  font-family: "Kaisei Opti", serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: #fff;
+}
+.value {
+  font-family: "Kaisei Opti", serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #fff;
+  padding-left: 10px;
 }
